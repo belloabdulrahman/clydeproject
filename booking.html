@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lochquarry</title>
+    <link rel="stylesheet" href="/src/style/designSystem.css">
+    <link rel="icon" href="src/images/Logo/logo.png">
+    <link rel="stylesheet" href="/src/style/contact.css">
+    <link rel="stylesheet" href="/src/style/booking.css">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar container">
+            <div class="navbar__logo">
+                <img src="src/images/Logo/logo.png" alt="" class="navbar__logo--image">
+                <div class="navbar__logo--text">Lochquarry Centre</div>
+            </div>
+            <div class="navbar__menu hidden">
+                <a href="index.html" class="navbar__menu--1">Home</a>
+                <a href="about.html" class="navbar__menu--1">About Us</a>
+                <a href="services.html" class="navbar__menu--1">Services</a>
+                <a href="contact.html" class="navbar__menu--1">Contact</a>
+            </div>
+
+            <div class="navbar__icons">
+                <i class="bi bi-list "></i>
+                <i class="bi bi-x-square hide"></i>
+            </div>
+        </div>
+    </div>
+
+    <form id="booking-form">
+        <div class="form-group">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time" required>
+        </div>
+        <div class="form-group">
+          <label for="child-name">Child's Name:</label>
+          <input type="text" id="child-name" name="child-name" required>
+        </div>
+        <div class="form-group">
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required>
+        </div>
+        <div class="form-group">
+          <label for="parent-name">Parent's Name:</label>
+          <input type="text" id="parent-name" name="parent-name" required>
+        </div>
+        <div class="form-group">
+          <label for="contact">Contact Number:</label>
+          <input type="tel" id="contact" name="contact" required>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Book Now" class="btn-submit">
+        </div>
+      </form>
+
+      <div class="footerWrapper">
+        <div class="footerLink container">
+            <div class="footerLink__socials">
+                <div class="footerLink__socials--text text-white">Connect with us</div>
+                <div class="footerLink__socials--image">
+                    <img src="src/images/socials/facebook.svg" alt="">
+                    <img src="src/images/socials/instagram.svg" alt="">
+                    <img src="src/images/socials/pinterest.svg" alt="">
+                    <img src="src/images/socials/tiktok.svg" alt="">
+                    <img src="src/images/socials/twitter.svg" alt="">
+                    <img src="src/images/socials/whatsapp.svg" alt="">
+                    <img src="src/images/socials/youtube.svg" alt="">
+                 </div>
+            </div>
+             <div class="footerLink__copyright text-white text-center">© Start, 2024. All right reserved.</div>
+        </div>
+    </div>
+    <script src="/src/main.js"></script>
+</body>
+</html>
